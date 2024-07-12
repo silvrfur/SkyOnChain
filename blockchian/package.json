@@ -1,0 +1,23 @@
+{
+  "name": "skyonchian",
+  "version": "1.0.0",
+  "description": "Decentralized application (DApp) for airplane ticket reselling using blockchain technology.",
+  "main": "index.js",
+  "scripts": {
+    "compile": "truffle compile",
+    "migrate": "truffle migrate --reset",
+    "test": "truffle test",
+    "start": "cd frontend && npm start"
+  },
+  "keywords": [],
+  "author": "silvrfur",
+  "license": "ISC",
+  "dependencies": {
+    "truffle": "^5.5.0",
+    "web3": "^1.5.3"
+  },
+  "devDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
